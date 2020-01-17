@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');*{ box-sizing: border-box;    
+}
+.contacto .contenedor {
+    align-items: flex-start;}
+
+.columna-100-50{
+    width: 100%}
+
+.mapa-col{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: :2px solid red;
+}
+.mapa{
+    width: 90%;
+    height: 400px;
+}

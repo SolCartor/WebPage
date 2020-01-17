@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.galeria{
+    margin-top: 45px;
+}
+
+.titulo-galeria{
+    font-size: 1.8em;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color:dimgray;
+}
+
+.img-galeria{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.img-galeria:hover{
+    transform: scale(1.02);
+}
+
+.columna-100-50-25{
+    width: 100%;
+    margin: 3px;
+}
+
+.galeria.contenedor{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30;
+}
+
+.grande{
+    height: 400px;
+}
+
+.chica{
+    height: 200px;
+}
+
+@media screen and (min-width:480px){
+    .columna-100-50-25{
+      width: 48%;   
+    } 
+    
+    .titulo-galeria{
+        font-size: 2.5em;
+    }
+}
+@media screen and (min-width:1080px){
+     .columna-100-50-25{
+      width: 23%;   
+    } 
+}

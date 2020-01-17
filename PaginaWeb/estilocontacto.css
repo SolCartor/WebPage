@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+.contacto .contenedor {
+    align-items: flex-start;
+    color:dimgray;
+}
+
+.columna-100-5 {
+    width: 100%
+}
+
+.mapa-col{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid lightpink;
+}
+.mapa{
+    width: 90%;
+    height: 400px;
+}
+.formulario{
+    padding: 10px;
+    padding-top: 0px;
+    
+}
+.formulario .btn{
+    display: block;
+    width: 120px;
+    background-color: lightpink;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+.titulo-grupo{
+        text-align: center;
+        font-size: 1.8em;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        color:dimgray;
+}
+    
+
+
+@media screen and (min-width:480px){
+
+    .columna-100-50{
+        width: 50%;
+        }
+    .mapa-col{
+        border-bottom: none;
+        border-right: 2px solid lightpink;
+    }
+    .titulo-grupo{
+        text-align: center;
+    }
+    
+}
